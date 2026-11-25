@@ -28,7 +28,7 @@ screenshot. This toolkit exposes them and stays out of the way.
 
 ## Hardware
 
-Verified against Proxmark3 RDV4 / Easy, ACR122U, PN532 breakouts; community reports for iCopy-XS,
+Verified against Proxmark3 RDV4, ACR122U, PN532 breakouts; community reports for iCopy-XS,
 Chameleon Ultra and Flipper Zero serial bridge. Compatibility matrix is machine-readable and
 open to PRs.
 

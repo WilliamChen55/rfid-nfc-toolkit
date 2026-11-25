@@ -26,7 +26,7 @@ What it does:
 What it deliberately doesn't do: key recovery, credential recovery, duplication. This is for
 people testing their own tags and integrating RFID into inventory/asset systems.
 
-Verified on Proxmark3 RDV4/Easy, ACR122U, PN532. Compatibility matrix is a JSON file in the repo
+Verified on Proxmark3 RDV4, ACR122U, PN532. Compatibility matrix is a JSON file in the repo
 and I'd like to add more devices.
 
 Repo: https://github.com/WilliamChen55/rfid-nfc-toolkit
