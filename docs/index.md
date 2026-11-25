@@ -11,16 +11,6 @@ A Python toolkit for reading, identifying and analyzing RFID/NFC tags on hardwar
 - [FAQ](faq.md)
 - [Legal notice](../LEGAL_NOTICE.md)
 
-```{toctree}
-:hidden:
-
-getting-started
-products
-protocols
-compatibility
-faq
-```
-
 ## What it does
 
 - Enumerates attached readers over serial / PC-SC
