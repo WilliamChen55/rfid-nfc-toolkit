@@ -40,3 +40,5 @@ ruff check src tests
 ## Data hygiene
 
 Never commit real UIDs tied to a live access system, customer data, or third-party credentials. Use redacted or synthetic samples.
+
+Commercial data, customer/order records, secrets and firmware dumps belong in a private repository — see the public/private boundary in [SECURITY.md](SECURITY.md).
