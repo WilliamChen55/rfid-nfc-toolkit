@@ -30,6 +30,8 @@ This toolkit is maintained alongside the reader/writer hardware lineup at **[hac
 | ACR122U / PN532 | Cheap PC/SC and UART front ends for CI rigs | [hackerwarehouse.me](https://hackerwarehouse.me) |
 
 > Bulk, education and lab orders: see the store's contact page. Firmware bundles and replacement antennas ship with the same part numbers used in `data/compatibility.json`.
+>
+> Full device guide with live product links: **[RFID / NFC Toolkit — device compatibility guide](https://hackerwarehouse.me/rfid-nfc-toolkit-compatibility/)**.
 
 ---
 

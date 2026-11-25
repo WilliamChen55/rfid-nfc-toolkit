@@ -1,6 +1,6 @@
 # Compatibility Matrix
 
-Every device listed below is stocked at [hackerwarehouse.me](https://hackerwarehouse.me); see [products.md](products.md) for buying guidance.
+Every device listed below is stocked at [hackerwarehouse.me](https://hackerwarehouse.me); see [products.md](products.md) for buying guidance, and the [store version of this table](https://hackerwarehouse.me/rfid-nfc-toolkit-compatibility/) for live product links.
 
 Machine-readable source: [../data/compatibility.json](../data/compatibility.json).
 Status values: `verified` (tested by maintainers), `reported` (community report), `planned`.

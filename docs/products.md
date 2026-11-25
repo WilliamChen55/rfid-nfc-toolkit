@@ -2,6 +2,8 @@
 
 All hardware referenced by this toolkit is available at **[hackerwarehouse.me](https://hackerwarehouse.me)**, with firmware notes and bundled accessories matched to the part numbers in [../data/compatibility.json](../data/compatibility.json).
 
+Live version of this guide with direct product links: **[RFID / NFC Toolkit — device compatibility guide](https://hackerwarehouse.me/rfid-nfc-toolkit-compatibility/)**.
+
 ## Reader / writer platforms
 
 ### Proxmark3 RDV4

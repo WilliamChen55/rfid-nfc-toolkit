@@ -1,0 +1,60 @@
+<p>The <strong>RFID/NFC Toolkit</strong> is an open-source Python library for reading, identifying and analyzing RFID/NFC tags on hardware you own or are authorized to test. It talks to your reader over USB serial or PC/SC and gives you the protocol layer directly: ATQA/SAK decoding, ATQB parsing, ISO 15693 inventory, CRC-A/CRC-B utilities, and JSON output you can pipe into asset-management pipelines.</p>
+
+<p>Every device on this page is stocked here at Hacker Warehouse and has been matched to the compatibility matrix maintained in the project repository. If you are choosing a reader, the second table maps workflows to hardware.</p>
+
+<h3>Supported devices</h3>
+
+<table>
+<thead>
+<tr><th>Device</th><th>Frequencies</th><th>Protocols</th><th>Transport</th><th>Toolkit status</th></tr>
+</thead>
+<tbody>
+<tr><td><a href="/product/proxmark3-rdv4-01">Proxmark3 RDV4.01</a></td><td>125 kHz + 13.56 MHz</td><td>ISO14443-A/B, ISO15693</td><td>Serial (pm3 client bridge)</td><td>Verified</td></tr>
+<tr><td><a href="/product/proxmark-5">Proxmark 5</a></td><td>125 kHz + 13.56 MHz</td><td>ISO14443-A/B, ISO15693</td><td>Serial</td><td>Verified</td></tr>
+<tr><td><a href="/product/icopy-xs">ICopy-XS</a></td><td>125 kHz + 13.56 MHz</td><td>ISO14443-A/B, ISO15693</td><td>Serial (line CLI)</td><td>Reported · firmware varies by batch</td></tr>
+<tr><td><a href="/product/flipper-zero">Flipper Zero</a></td><td>125 kHz, 13.56 MHz, sub-GHz</td><td>ISO14443-A/B, ISO15693</td><td>Serial bridge app</td><td>Reported · lower throughput</td></tr>
+<tr><td><a href="/product/all-in-one-pn532">All-In-One PN532</a></td><td>13.56 MHz</td><td>ISO14443-A/B, ISO15693</td><td>USB serial (CH340, HSU mode)</td><td>Verified · best value for CI rigs</td></tr>
+<tr><td><a href="/product/hackrf-one">HackRF One</a></td><td>1 MHz – 6 GHz</td><td>—</td><td>—</td><td>Spectrum observation only</td></tr>
+<tr><td>ACR122U or any PC/SC reader</td><td>13.56 MHz</td><td>ISO14443-A/B</td><td>PC/SC (pyscard)</td><td>Verified</td></tr>
+</tbody>
+</table>
+
+<p><small>Status definitions: <strong>Verified</strong> — tested end to end by the maintainers. <strong>Reported</strong> — works according to community reports; your firmware version may differ. Protocol support describes what the toolkit can decode, not what the card grants access to.</small></p>
+
+<h3>Which device fits which workflow</h3>
+
+<table>
+<thead>
+<tr><th>Goal</th><th>Recommended setup</th><th>Why</th></tr>
+</thead>
+<tbody>
+<tr><td>Learn the protocol</td><td><a href="/product/all-in-one-pn532">All-In-One PN532</a></td><td>Cheapest path to ISO14443A/B over USB serial, HSU mode</td></tr>
+<tr><td>Daily lab work</td><td><a href="/product/proxmark3-rdv4-01">Proxmark3 RDV4.01</a> + <a href="/product/proxmark3-rdv4-0-antennas">HF antennas</a> / <a href="/product/proxmark3-rdv4-lf-antenna-set">LF antenna set</a></td><td>Full toolchain, LF + HF, scriptable bridge</td></tr>
+<tr><td>Higher throughput / newer platform</td><td><a href="/product/proxmark-5">Proxmark 5</a></td><td>Batch identification and continuous inventory</td></tr>
+<tr><td>Field asset audit (no laptop)</td><td><a href="/product/icopy-xs">ICopy-XS</a></td><td>Standalone reader, UID and type confirmation on site</td></tr>
+<tr><td>Multi-protocol bench</td><td><a href="/product/flipper-zero">Flipper Zero</a></td><td>Serial bridge into the toolkit, plus sub-GHz work</td></tr>
+<tr><td>Antenna extension</td><td><a href="/product/proxlf-antenna-by-proxgrind">ProxLF antenna by ProxGrind</a></td><td>Extends read range on LF/Proxmark setups</td></tr>
+<tr><td>Spectrum observation</td><td><a href="/product/hackrf-one">HackRF One</a></td><td>Observe activity around 13.56 MHz; not a tag decoder</td></tr>
+</tbody>
+</table>
+
+<h3>Code, documentation and compatibility data</h3>
+
+<ul>
+<li>Source code: <a href="https://github.com/WilliamChen55/rfid-nfc-toolkit" rel="noopener">github.com/WilliamChen55/rfid-nfc-toolkit</a></li>
+<li>Documentation: <a href="https://WilliamChen55.github.io/rfid-nfc-toolkit/" rel="noopener">docs site</a></li>
+<li>Machine-readable matrix: <a href="https://github.com/WilliamChen55/rfid-nfc-toolkit/blob/main/data/compatibility.json" rel="noopener">data/compatibility.json</a> — open to pull requests from customers who test a device we do not list yet</li>
+<li>Release notes: <a href="https://github.com/WilliamChen55/rfid-nfc-toolkit/releases" rel="noopener">v0.1.0</a></li>
+</ul>
+
+<p>Install it in one line:</p>
+
+<pre><code>pip install -e git+https://github.com/WilliamChen55/rfid-nfc-toolkit.git#egg=rfid-nfc-toolkit
+rfidtoolkit devices
+rfidtoolkit identify --port COM5 --json</code></pre>
+
+<h3>Scope and responsible use</h3>
+
+<p>The toolkit reads, identifies and analyzes. It does <strong>not</strong> implement key recovery, credential recovery, duplication or access bypass. Use it only on tags, cards and readers that you own or have written authorization to test, and follow the radio and computer-misuse rules of your jurisdiction. Deliberate interference and jamming are prohibited.</p>
+
+<p>Questions about a specific reader, or a firmware combination that is not listed? Send us a message with your model and firmware version — compatibility reports go straight into the matrix.</p>
