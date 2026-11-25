@@ -1,0 +1,43 @@
+name: Hardware compatibility report
+description: Report results for a reader we do not list yet
+labels: ["compatibility"]
+body:
+  - type: input
+    id: model
+    attributes:
+      label: Device model
+      placeholder: iCopy-XS, firmware 2.3.1
+    validations:
+      required: true
+  - type: dropdown
+    id: transport
+    attributes:
+      label: Transport
+      options: [Serial (CDC-ACM), Serial (FTDI), PC/SC, HID bridge, Other]
+    validations:
+      required: true
+  - type: input
+    id: baud
+    attributes:
+      label: Baud rate / interface settings
+      placeholder: 115200 8N1
+  - type: textarea
+    id: discovery
+    attributes:
+      label: Output of `rfidtoolkit devices`
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sample response line for a tag you own
+      description: UID / ATQA / SAK only. Never post third-party credential data.
+      render: text
+  - type: dropdown
+    id: status
+    attributes:
+      label: Result
+      options: [Works fully, Partially works, Does not work]
+    validations:
+      required: true

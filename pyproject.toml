@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rfid-nfc-toolkit"
+version = "0.1.0"
+description = "Cross-platform Python toolkit for reading, identifying and analyzing RFID/NFC tags on your own hardware."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "RFID/NFC Toolkit contributors" }]
+keywords = ["rfid", "nfc", "iso14443", "iso15693", "hardware", "serial", "protocol-analyzer"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+  "Topic :: System :: Hardware",
+]
+dependencies = ["pyserial>=3.5"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "ruff>=0.5"]
+
+[project.scripts]
+rfidtoolkit = "rfidtoolkit.cli:main"
+
+[project.urls]
+Homepage = "https://hackerwarehouse.me"
+Documentation = "https://github.com/WilliamChen55/rfid-nfc-toolkit/tree/main/docs"
+Issues = "https://github.com/WilliamChen55/rfid-nfc-toolkit/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

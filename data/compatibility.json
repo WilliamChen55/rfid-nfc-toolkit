@@ -1,0 +1,86 @@
+{
+  "updated": "2026-11",
+  "schema": {
+    "name": "Device model",
+    "type": "Reader / writer / emulator / SDR",
+    "frequencies": "Supported carrier frequencies",
+    "protocols": "Protocol families the toolkit can decode",
+    "transport": "serial | pcsc | hid-bridge | none",
+    "status": "verified | reported | planned",
+    "notes": "Adapter details and caveats"
+  },
+  "devices": [
+    {
+      "name": "Proxmark3 RDV4",
+      "type": "Reader/writer + bridge",
+      "frequencies": ["125 kHz", "13.56 MHz"],
+      "protocols": ["ISO14443-A", "ISO14443-B", "ISO15693"],
+      "transport": "serial",
+      "status": "verified",
+      "notes": "Use the pm3 client bridge; firmware >= v4.19"
+    },
+    {
+      "name": "Proxmark3 Easy",
+      "type": "Reader/writer",
+      "frequencies": ["125 kHz", "13.56 MHz"],
+      "protocols": ["ISO14443-A", "ISO14443-B", "ISO15693"],
+      "transport": "serial",
+      "status": "verified",
+      "notes": "Same client as RDV4, smaller flash"
+    },
+    {
+      "name": "iCopy-XS",
+      "type": "Standalone reader/writer",
+      "frequencies": ["125 kHz", "13.56 MHz"],
+      "protocols": ["ISO14443-A", "ISO14443-B", "ISO15693"],
+      "transport": "serial",
+      "status": "reported",
+      "notes": "Line-based CLI bridge; firmware varies by batch"
+    },
+    {
+      "name": "Chameleon Ultra",
+      "type": "Emulator / reader",
+      "frequencies": ["13.56 MHz"],
+      "protocols": ["ISO14443-A", "ISO14443-B", "ISO15693"],
+      "transport": "serial",
+      "status": "reported",
+      "notes": "Protocol documented in upstream repo"
+    },
+    {
+      "name": "Flipper Zero",
+      "type": "Multi-tool",
+      "frequencies": ["125 kHz", "13.56 MHz", "sub-GHz"],
+      "protocols": ["ISO14443-A", "ISO14443-B", "ISO15693"],
+      "transport": "hid-bridge",
+      "status": "reported",
+      "notes": "Via serial bridge app; throughput limited"
+    },
+    {
+      "name": "ACR122U",
+      "type": "Contactless reader",
+      "frequencies": ["13.56 MHz"],
+      "protocols": ["ISO14443-A", "ISO14443-B"],
+      "transport": "pcsc",
+      "status": "verified",
+      "notes": "Use the pyscard backend"
+    },
+    {
+      "name": "PN532 breakout",
+      "type": "NFC module",
+      "frequencies": ["13.56 MHz"],
+      "protocols": ["ISO14443-A", "ISO14443-B", "ISO15693"],
+      "transport": "serial",
+      "status": "verified",
+      "notes": "UART / I2C; HSU mode recommended"
+    },
+    {
+      "name": "HackRF One",
+      "type": "SDR",
+      "frequencies": ["1 MHz", "6 GHz"],
+      "protocols": [],
+      "transport": "none",
+      "status": "planned",
+      "notes": "Spectrum observation only; not a tag-protocol reader"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a reproducible bug in the toolkit
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Do not include third-party credential or access data.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Output of `rfidtoolkit --version`
+      placeholder: rfidtoolkit 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options: [Windows, macOS, Linux]
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Reader hardware
+      placeholder: Proxmark3 RDV4 / ACR122U / ...
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. run `rfidtoolkit devices`
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior / logs
+      render: shell
+    validations:
+      required: true
+  - type: checkboxes
+    id: legal
+    attributes:
+      label: Confirmation
+      options:
+        - label: The hardware and tags involved are mine or I have authorization to test them
+          required: true

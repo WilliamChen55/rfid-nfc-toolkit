@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: RFID/NFC Toolkit
+description: Cross-platform Python toolkit for reading, identifying and analyzing RFID/NFC tags
+show_downloads: false
