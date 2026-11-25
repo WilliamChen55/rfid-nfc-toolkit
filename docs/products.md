@@ -12,9 +12,6 @@ The reference platform for protocol work: 125 kHz and 13.56 MHz, full client too
 - Use for: protocol research, firmware development, lab rigs
 - Adapter: `pm3` client bridge, firmware ≥ v4.19
 
-### Proxmark3 Easy
-Same client, lower cost. Adequate for HF-focused work and CI rigs. Flash is smaller, so avoid multi-image firmware builds.
-
 ### Proxmark5
 Newer platform with higher throughput. Good when you are batch-identifying tags or running continuous inventory.
 
@@ -46,7 +43,6 @@ Useful to *observe* activity around 13.56 MHz and sub-GHz, not to decode tag pro
 
 | Goal | Recommended | Notes |
 | --- | --- | --- |
-| Learn the protocol | Proxmark3 Easy + PN532 | Lowest cost that still covers HF |
 | Daily lab work | Proxmark3 RDV4 | Full toolchain, LF + HF |
 | Field asset audit | iCopy-XS | No laptop required |
 | Automated CI rig | ACR122U or PN532 | PC/SC or UART, cheap to replicate |

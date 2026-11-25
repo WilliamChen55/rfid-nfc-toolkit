@@ -8,7 +8,6 @@ Status values: `verified` (tested by maintainers), `reported` (community report)
 | Device | Type | Frequencies | Protocols | Status | Notes |
 | --- | --- | --- | --- | --- | --- |
 | Proxmark3 RDV4 | Reader/writer + SDR bridge | 125 kHz, 13.56 MHz | 14443A/B, 15693, LF | verified | Use the `pm3` client bridge mode; firmware ≥ v4.19 |
-| Proxmark3 Easy | Reader/writer | 125 kHz, 13.56 MHz | 14443A/B, 15693, LF | verified | Same client, smaller flash |
 | iCopy-XS | Standalone reader/writer | 125 kHz, 13.56 MHz | 14443A/B, 15693 | reported | Line-based CLI bridge; firmware varies by batch |
 | Chameleon Ultra | Emulator/reader | 13.56 MHz | 14443A/B, 15693 | reported | Serial protocol documented in the upstream repo |
 | Flipper Zero | Multi-tool | 125 kHz, 13.56 MHz, sub-GHz | 14443A/B, 15693 | reported | Via `serial bridge` app; throughput limited |

@@ -21,7 +21,6 @@ This toolkit is maintained alongside the reader/writer hardware lineup at **[hac
 | Device | Best for | Where |
 | --- | --- | --- |
 | Proxmark3 RDV4 | Full protocol work, LF + HF, scriptable bridge | [hackerwarehouse.me](https://hackerwarehouse.me) |
-| Proxmark3 Easy | Same client, lower cost entry point | [hackerwarehouse.me](https://hackerwarehouse.me) |
 | Proxmark5 | Next-gen platform, higher throughput | [hackerwarehouse.me](https://hackerwarehouse.me) |
 | iCopy-XS | Standalone field reading, no laptop required | [hackerwarehouse.me](https://hackerwarehouse.me) |
 | Chameleon Ultra | Tag emulation studies, 14443A/B + 15693 | [hackerwarehouse.me](https://hackerwarehouse.me) |

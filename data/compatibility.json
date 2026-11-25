@@ -20,15 +20,6 @@
       "notes": "Use the pm3 client bridge; firmware >= v4.19"
     },
     {
-      "name": "Proxmark3 Easy",
-      "type": "Reader/writer",
-      "frequencies": ["125 kHz", "13.56 MHz"],
-      "protocols": ["ISO14443-A", "ISO14443-B", "ISO15693"],
-      "transport": "serial",
-      "status": "verified",
-      "notes": "Same client as RDV4, smaller flash"
-    },
-    {
       "name": "iCopy-XS",
       "type": "Standalone reader/writer",
       "frequencies": ["125 kHz", "13.56 MHz"],
