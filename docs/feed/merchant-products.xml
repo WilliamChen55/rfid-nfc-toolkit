@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <title>Hacker Warehouse - recommended hardware feed</title>
+    <link>https://hackerwarehouse.me</link>
+    <description>Curated RFID, NFC and SDR hardware for Google Merchant Center</description>
+  <item>
+    <g:id>464</g:id>
+    <title>Proxmark3 RDV4.01 RFID Research Platform - LF 125kHz + HF 13.56MHz</title>
+    <description>Proxmark3 RDV4.01 is the reference open-source platform for RFID research, protocol analysis and tag diagnostics. It reads and identifies LF (125 kHz) and HF (13.56 MHz) tags, including ISO14443-A/B and ISO15693, and pairs with the open-source RFID/NFC Toolkit for ATQA/SAK decoding and JSON output. Includes PCBA with shell, HF and LF antennas, two test cards, USB cable and SIM adapter. Intended for authorized testing of tags, cards and readers you own.</description>
+    <link>https://hackerwarehouse.me/product/proxmark3-rdv4-01/</link>
+    <g:image_link>https://hackerwarehouse.me/wp-content/uploads/2025/02/42.png</g:image_link>
+    <g:price>448.50 USD</g:price>
+    <g:availability>in_stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Proxmark3</g:brand>
+    <g:mpn>PM3-RDV4-01</g:mpn>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:google_product_category>Electronics &gt; Electronics Accessories</g:google_product_category>
+    <g:product_type>Proxmark3 Rdv4.01</g:product_type>
+    <g:adult>no</g:adult>
+  </item>
+  <item>
+    <g:id>2834</g:id>
+    <title>Proxmark 5 RFID Research Platform - LF + HF Protocol Analysis</title>
+    <description>Proxmark 5 is the next-generation open-source RFID research platform with a faster front end, improved RF power supply and broader protocol coverage than RDV4. Suitable for reading and analyzing LF (125 kHz) and HF (13.56 MHz) tags, bench diagnostics and firmware development. For authorized testing of cards and readers you own.</description>
+    <link>https://hackerwarehouse.me/product/proxmark-5/</link>
+    <g:image_link>https://hackerwarehouse.me/wp-content/uploads/2026/10/20261027-155140.png</g:image_link>
+    <g:price>380.00 USD</g:price>
+    <g:availability>out_of_stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Proxmark</g:brand>
+    <g:mpn>PROXMARK5</g:mpn>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:google_product_category>Electronics &gt; Electronics Accessories</g:google_product_category>
+    <g:product_type>Proxmark 5</g:product_type>
+    <g:adult>no</g:adult>
+  </item>
+  <item>
+    <g:id>2167</g:id>
+    <title>iCopy-XS Standalone RFID Reader and Analyzer with Touchscreen</title>
+    <description>iCopy-XS is a standalone handheld RFID reader and analyzer with a color touchscreen, no laptop required. It reads and identifies 125 kHz and 13.56 MHz tags in the field, supports card inspection, frequency detection and firmware-based workflows. For authorized testing and inventory work on tags and cards you own.</description>
+    <link>https://hackerwarehouse.me/product/icopy-xs/</link>
+    <g:image_link>https://hackerwarehouse.me/wp-content/uploads/2025/03/57.png</g:image_link>
+    <g:price>487.50 USD</g:price>
+    <g:availability>in_stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>iCopy</g:brand>
+    <g:mpn>ICOPY-XS</g:mpn>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:google_product_category>Electronics &gt; Electronics Accessories</g:google_product_category>
+    <g:product_type>ICopy-XS</g:product_type>
+    <g:adult>no</g:adult>
+  </item>
+  <item>
+    <g:id>2219</g:id>
+    <title>Flipper Zero Portable Multi-Tool for Sub-GHz, RFID, NFC and IR</title>
+    <description>Flipper Zero is a portable multi-tool for pentesters and hardware enthusiasts. It reads and inspects Sub-GHz remotes, 125 kHz and 13.56 MHz RFID/NFC tags, infrared signals and iButton devices, with an open firmware ecosystem and GPIO headers. Ships with the toolkit-compatible serial bridge for protocol-level tag identification. Use only on devices and tags you own or are authorized to test.</description>
+    <link>https://hackerwarehouse.me/product/flipper-zero/</link>
+    <g:image_link>https://hackerwarehouse.me/wp-content/uploads/2025/03/79.png</g:image_link>
+    <g:price>325.00 USD</g:price>
+    <g:availability>in_stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Flipper Devices</g:brand>
+    <g:mpn>FLIPPER-ZERO</g:mpn>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:google_product_category>Electronics &gt; Electronics Accessories</g:google_product_category>
+    <g:product_type>Flipper Zero</g:product_type>
+    <g:adult>no</g:adult>
+  </item>
+  <item>
+    <g:id>2186</g:id>
+    <title>HackRF One Software Defined Radio - 1 MHz to 6 GHz Transceiver</title>
+    <description>HackRF One is an open-source SDR transceiver covering 1 MHz to 6 GHz with a half-duplex RF front end, SMA connectors and USB power. Used for spectrum observation, signal analysis, protocol research and RF education. It observes RF activity around 13.56 MHz but is not a tag-protocol reader. Operate within the radio regulations of your jurisdiction.</description>
+    <link>https://hackerwarehouse.me/product/hackrf-one/</link>
+    <g:image_link>https://hackerwarehouse.me/wp-content/uploads/2025/03/65.png</g:image_link>
+    <g:price>546.00 USD</g:price>
+    <g:availability>in_stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Great Scott Gadgets</g:brand>
+    <g:mpn>HACKRF-ONE</g:mpn>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:google_product_category>Electronics &gt; Electronics Accessories</g:google_product_category>
+    <g:product_type>HackRF One</g:product_type>
+    <g:adult>no</g:adult>
+  </item>
+  <item>
+    <g:id>2191</g:id>
+    <title>PortaPack H4M for HackRF One - Standalone SDR with Touchscreen</title>
+    <description>PortaPack H4M turns a HackRF One into a standalone handheld SDR: 3.2 inch touchscreen, navigation controls, headphone and microSD slot, plus a wide set of receive and analysis applications for spectrum work and RF education. HackRF One not included. Operate within the radio regulations of your jurisdiction.</description>
+    <link>https://hackerwarehouse.me/product/portapack-h4m-for-hackrf-one/</link>
+    <g:image_link>https://hackerwarehouse.me/wp-content/uploads/2025/03/66.png</g:image_link>
+    <g:price>247.00 USD</g:price>
+    <g:availability>in_stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>PortaPack</g:brand>
+    <g:mpn>PORTAPACK-H4M</g:mpn>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:google_product_category>Electronics &gt; Electronics Accessories</g:google_product_category>
+    <g:product_type>PortaPack H4M for HackRF One</g:product_type>
+    <g:adult>no</g:adult>
+  </item>
+  <item>
+    <g:id>2258</g:id>
+    <title>CatSniffer Multiprotocol IoT Sniffer - Sub-GHz, LoRa, Zigbee and BLE</title>
+    <description>CatSniffer is an open-source multiprotocol, multiband board for sniffing and communicating with IoT devices. It covers Sub-GHz, LoRa, Zigbee/802.15.4 and BLE through replaceable radio modules, and runs open firmware for capture and analysis workflows. For research on devices and networks you are authorized to test.</description>
+    <link>https://hackerwarehouse.me/product/catsniffer/</link>
+    <g:image_link>https://hackerwarehouse.me/wp-content/uploads/2025/03/103.png</g:image_link>
+    <g:price>253.50 USD</g:price>
+    <g:availability>in_stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Electronic Cats</g:brand>
+    <g:mpn>CATSNIFFER</g:mpn>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:google_product_category>Electronics &gt; Electronics Accessories</g:google_product_category>
+    <g:product_type>CatSniffer</g:product_type>
+    <g:adult>no</g:adult>
+  </item>
+  <item>
+    <g:id>2213</g:id>
+    <title>GreatFET One Hardware Hacking Tool - USB Development Board</title>
+    <description>GreatFET One is an extensible, open-source USB hardware tool with two USB ports, GPIO, SPI, I2C, UART and logic-analysis style workflows. It is used for hardware bring-up, firmware development, protocol reverse engineering education and lab automation on your own equipment.</description>
+    <link>https://hackerwarehouse.me/product/greatfet-one/</link>
+    <g:image_link>https://hackerwarehouse.me/wp-content/uploads/2025/03/76.png</g:image_link>
+    <g:price>180.70 USD</g:price>
+    <g:availability>in_stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Great Scott Gadgets</g:brand>
+    <g:mpn>GREATFET-ONE</g:mpn>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:google_product_category>Electronics &gt; Electronics Accessories</g:google_product_category>
+    <g:product_type>GreatFET One</g:product_type>
+    <g:adult>no</g:adult>
+  </item>
+  <item>
+    <g:id>2209</g:id>
+    <title>Cynthion USB Test Instrument - Build, Test and Monitor USB Devices</title>
+    <description>Cynthion is an all-in-one open-source instrument for building, testing, monitoring and experimenting with USB devices. It provides a USB 2.0 analyzer, a host/device emulation path and FPGA-based custom gateware support for protocol development and lab research.</description>
+    <link>https://hackerwarehouse.me/product/cynthion/</link>
+    <g:image_link>https://hackerwarehouse.me/wp-content/uploads/2025/03/74.png</g:image_link>
+    <g:price>331.50 USD</g:price>
+    <g:availability>in_stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Great Scott Gadgets</g:brand>
+    <g:mpn>CYNTHION</g:mpn>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:google_product_category>Electronics &gt; Electronics Accessories</g:google_product_category>
+    <g:product_type>Cynthion</g:product_type>
+    <g:adult>no</g:adult>
+  </item>
+  <item>
+    <g:id>2254</g:id>
+    <title>USB Armory MkII - Open Source USB Computer for Security Research</title>
+    <description>USB Armory MkII is a full-featured computer in a USB stick form factor, designed for security research and embedded development. It runs Linux, supports hardware crypto, flash storage and a headless configuration, and is used for secure boot, key storage and portable lab workloads.</description>
+    <link>https://hackerwarehouse.me/product/usb-armory-mkii/</link>
+    <g:image_link>https://hackerwarehouse.me/wp-content/uploads/2025/03/101.png</g:image_link>
+    <g:price>286.00 USD</g:price>
+    <g:availability>in_stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>F-Secure</g:brand>
+    <g:mpn>USB-ARMORY-MKII</g:mpn>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:google_product_category>Electronics &gt; Electronics Accessories</g:google_product_category>
+    <g:product_type>USB Armory MkII</g:product_type>
+    <g:adult>no</g:adult>
+  </item>
+  <item>
+    <g:id>2026</g:id>
+    <title>LAN Tap Pro - Passive Ethernet Network Tap</title>
+    <description>LAN Tap Pro is a passive Ethernet tap that requires no power: it passes traffic through while exposing a copy of both directions for monitoring and analysis tools. Use it on networks you own or are authorized to monitor.</description>
+    <link>https://hackerwarehouse.me/product/lan-tap-pro/</link>
+    <g:image_link>https://hackerwarehouse.me/wp-content/uploads/2025/03/RFID-Cards-Hackwarehouse.asia-3-2.png</g:image_link>
+    <g:price>65.00 USD</g:price>
+    <g:availability>in_stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>Great Scott Gadgets</g:brand>
+    <g:mpn>LAN-TAP-PRO</g:mpn>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:google_product_category>Electronics &gt; Electronics Accessories</g:google_product_category>
+    <g:product_type>LAN Tap Pro</g:product_type>
+    <g:adult>no</g:adult>
+  </item>
+  <item>
+    <g:id>475</g:id>
+    <title>RF Detector by ProxGrind - Handheld LF and HF Field Detector</title>
+    <description>RF Detector by ProxGrind is a compact handheld device that senses LF and HF RF fields, helping you locate active readers and confirm antenna output before field work. A practical pocket tool for installers, lab benches and RFID site surveys.</description>
+    <link>https://hackerwarehouse.me/product/rf-detector-by-proxgrind/</link>
+    <g:image_link>https://hackerwarehouse.me/wp-content/uploads/2025/02/RF-Detector-by-ProxGrind.png</g:image_link>
+    <g:price>26.00 USD</g:price>
+    <g:availability>in_stock</g:availability>
+    <g:condition>new</g:condition>
+    <g:brand>ProxGrind</g:brand>
+    <g:mpn>RF-DETECTOR</g:mpn>
+    <g:identifier_exists>no</g:identifier_exists>
+    <g:google_product_category>Electronics &gt; Electronics Accessories</g:google_product_category>
+    <g:product_type>RF Detector by ProxGrind</g:product_type>
+    <g:adult>no</g:adult>
+  </item>
+  </channel>
+</rss>
